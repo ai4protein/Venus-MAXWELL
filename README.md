@@ -1,6 +1,9 @@
 # Venus-MAXWELL
 Source code of Venus-MAXWELL: Efficient Learning of Protein-Mutation Stability Landscapes using Protein Language Models
 
+#### If you find this work useful, please star the repo! (Click the star button in the top right corner of the page)
+Thank you! (づ｡◕‿‿◕｡)づ
+
 ## Recommended environment
 It is highly recommended to start a new conda environment from scratch due to potential CUDA compatability issues between pytorch and the pytorch-geometric package required for the inverse folding model.
 
@@ -37,7 +40,7 @@ cd Venus-MAXWELL
 
 ## Generate ddG predictions of all possible single mutations of a protein from PDB file with Venus-MAXWELL(ESM-IF)
 
-Download the weights from [here](https://drive.google.com/file/d/1-_0000000000000000000000000000000000000000/view?usp=sharing) and put them in the `weights` folder.
+Download the weights from [here](https://drive.google.com/file/d/1kB1IweY43yNLoIkOovS7GezXS-3Ro0eA/view?usp=drive_link) and put them in the `weights` folder.
 ```bash
 ls weights
 ```
