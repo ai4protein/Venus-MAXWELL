@@ -34,7 +34,7 @@ pip install transformers
 
 ## Clone the repository
 ```bash
-git clone https://github.com/Venus-MAXWELL/Venus-MAXWELL.git
+git clone https://github.com/ai4protein/Venus-MAXWELL.git
 cd Venus-MAXWELL
 ```
 
