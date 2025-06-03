@@ -64,10 +64,15 @@ python -m maxwell.esm2.train --train_folder example_datasets/train --valid_folde
 ### Citation
 If you find this work useful, please cite:
 ```bibtex
-@article{yu2025venus,
-  title={Venus-MAXWELL: Efficient Learning of Protein-Mutation Stability Landscapes using Protein Language Models},
-  author={Yuanxi Yu, Fan Jiang, XinZhu Ma, Liang Zhang, Bozitao Zhong, Wanli Ouyang, Guisheng Fan, Huiqun Yu, Liang Hong, and Mingchen Li},
-  journal={bioRxiv:2505.656964},
-  year={2025}
+@article {Yu2025.05.30.656964,
+	author = {Yu, Yuanxi and Jiang, Fan and Ma, XinZhu and Zhang, Liang and Zhong, Bozitao and Ouyang, Wanli and Fan, Guisheng and Yu, Huiqun and Hong, Liang and Li, Mingchen},
+	title = {Venus-MAXWELL: Efficient Learning of Protein-Mutation Stability Landscapes using Protein Language Models},
+	elocation-id = {2025.05.30.656964},
+	year = {2025},
+	doi = {10.1101/2025.05.30.656964},
+	publisher = {Cold Spring Harbor Laboratory},
+	URL = {https://www.biorxiv.org/content/early/2025/06/02/2025.05.30.656964},
+	eprint = {https://www.biorxiv.org/content/early/2025/06/02/2025.05.30.656964.full.pdf},
+	journal = {bioRxiv}
 }
 ```
