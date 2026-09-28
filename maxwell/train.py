@@ -13,7 +13,7 @@ def parse_args():
     parser.add_argument('--model_type', type=str, default='esm', choices=['esm', 'esmif', 'mifst', 'proteinmpnn', 'proteinmpnn-esm', 'prosst'])
     parser.add_argument('--model_path', type=str, default=None)
     parser.add_argument('--esm_model_path', type=str, default='facebook/esm2_t33_650M_UR50D')
-    parser.add_argument('--mpnn_model_path', type=str, default='vendors/ProteinMPNN/vanilla_model_weights/v_48_020.pt')
+    parser.add_argument('--mpnn_model_path', type=str, default='weights/proteinmpnn/v_48_020.pt')
     parser.add_argument('--mpnn_score_mode', type=str, default='autoregressive',
                         choices=['autoregressive', 'conditional', 'unconditional'])
     parser.add_argument('--prosst_data_path', type=str, default='dataset/data/prosst')
