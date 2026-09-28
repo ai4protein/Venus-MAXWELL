@@ -263,7 +263,7 @@ class ProteinMPNNESMWrapper(BaseModelWrapper):
     def make_model(self, args):
         return ProteinMPNNESM(
             esm_path=getattr(args, "esm_model_path", "facebook/esm2_t33_650M_UR50D"),
-            mpnn_path=getattr(args, "mpnn_model_path", "vendors/ProteinMPNN/vanilla_model_weights/v_48_020.pt"),
+            mpnn_path=getattr(args, "mpnn_model_path", "weights/proteinmpnn/v_48_020.pt"),
             mpnn_fusion_weight_init=getattr(args, "mpnn_fusion_weight_init", 2.0),
             esm_fusion_weight_init=getattr(args, "esm_fusion_weight_init", 1.0),
         )
