@@ -1,0 +1,34 @@
+[project]
+name = "maxwell"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "biopython>=1.88",
+    "biotite==0.38",
+    "fair-esm>=2.0.0",
+    "lightning>=2.6.5",
+    "numpy<2",
+    "pandas>=3.0.5",
+    "peft>=0.20.0",
+    "scikit-learn>=1.9.0",
+    "scipy<1.18",
+    "sequence-models",
+    "tensorboard>=2.21.0",
+    "torch==2.12.1",
+    "torch-geometric>=2.8.0.post1",
+    "torch-scatter @ https://data.pyg.org/whl/torch-2.12.0%2Bcu132/torch_scatter-2.1.2%2Bpt212cu132-cp312-cp312-linux_x86_64.whl",
+    "torchvision==0.27.1",
+    "transformers>=5.16.1",
+    "wandb>=0.29.0",
+]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu132" }
+torchvision = { index = "pytorch-cu132" }
+sequence-models = { git = "https://github.com/mingchen-li/protein-sequence-models.git" }
+
+[[tool.uv.index]]
+name = "pytorch-cu132"
+url = "https://download.pytorch.org/whl/cu132"
