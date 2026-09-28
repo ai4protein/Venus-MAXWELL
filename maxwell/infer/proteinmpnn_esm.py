@@ -49,7 +49,7 @@ def load_model_from_checkpoint(
     if esm_model_path is None:
         esm_model_path = _get_ckpt_arg(checkpoint, "esm_model_path", "facebook/esm2_t33_650M_UR50D")
     if mpnn_model_path is None:
-        mpnn_model_path = _get_ckpt_arg(checkpoint, "mpnn_model_path", "vendors/ProteinMPNN/vanilla_model_weights/v_48_020.pt")
+        mpnn_model_path = _get_ckpt_arg(checkpoint, "mpnn_model_path", "weights/proteinmpnn/v_48_020.pt")
 
     state_dict = checkpoint["state_dict"]
     model_state_dict = {}
