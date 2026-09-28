@@ -325,7 +325,7 @@ def main():
     parser.add_argument("--data", type=str, default=None, help="Single dataset dir for --cv cross-validation")
     parser.add_argument("--cv", type=int, default=0, help="k-fold CV on --data (grouped by protein)")
     parser.add_argument("--checkpoint_path", type=str,
-                        default="vendors/ProteinMPNN/vanilla_model_weights/v_48_020.pt",
+                        default="weights/proteinmpnn/v_48_020.pt",
                         help="Frozen ProteinMPNN weights (vanilla .pt or Lightning .ckpt)")
     parser.add_argument("--head", type=str, default="ridge", choices=["ridge", "mlp"])
     parser.add_argument("--alpha", type=float, default=10.0, help="Ridge regularization strength")
