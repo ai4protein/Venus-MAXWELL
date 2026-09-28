@@ -20,7 +20,7 @@ class ProteinMPNNESM(nn.Module):
     def __init__(
         self,
         esm_path="facebook/esm2_t33_650M_UR50D",
-        mpnn_path="vendors/ProteinMPNN/vanilla_model_weights/v_48_020.pt",
+        mpnn_path="weights/proteinmpnn/v_48_020.pt",
         mpnn_fusion_weight_init=2.0,
         esm_fusion_weight_init=1.0,
     ):
